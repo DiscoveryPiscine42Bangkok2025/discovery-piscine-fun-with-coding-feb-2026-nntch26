@@ -5,14 +5,8 @@ if [ $# -eq 0 ]; then
     exit 0
 fi
 
-count=0 
 for i in "$@"
 
 do  
-    if [ $count -ge 3 ]; then
-        break
-    fi
-
-    echo "$i"
-    count=$((count + 1))
+    mkdir "ex$i"
 done
