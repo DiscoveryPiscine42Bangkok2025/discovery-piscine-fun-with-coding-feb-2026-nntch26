@@ -1,0 +1,43 @@
+.main{
+    display: flex;
+    justify-content: center;
+}
+
+.main-menu{
+    position: relative;
+}
+
+
+.btn{
+    background-color:crimson;
+    padding: 12px;
+    border: none;
+    color: white;
+    cursor: pointer;
+
+}
+
+.sub-menu{
+    display: none;
+    position: absolute;
+    background-color: rgb(255, 240, 240);
+    min-width: 200px;
+    
+}
+
+.sub-menu a{
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+    color: black;
+}
+
+.sub-menu a:hover{
+    text-decoration:underline;
+    background-color: rgb(233, 219, 219);
+}
+
+.main-menu:hover .sub-menu{
+    display: block;
+
+}
