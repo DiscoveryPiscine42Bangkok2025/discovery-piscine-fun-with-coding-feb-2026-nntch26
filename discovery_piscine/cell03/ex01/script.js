@@ -37,7 +37,6 @@ function handleLeave(){
     myballoon.style.width = size + 'px';
     myballoon.style.height = size + 'px';
 
-
     index = (index - 1 + colors.length) % colors.length
     myballoon.style.background = colors[index];
 }

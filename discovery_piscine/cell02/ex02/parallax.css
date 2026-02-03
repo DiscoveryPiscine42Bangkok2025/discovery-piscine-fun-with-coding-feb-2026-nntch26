@@ -1,0 +1,42 @@
+body, html {
+  height: 100%;
+}
+
+.image1, .image2 {
+    height: 100%; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ใส่รูป */
+.image1 {
+  background-image: url('https://www.osdco.net/images/communities/content/knowledge/checklist/03-seven-week-old-puppy.jpg');
+}
+
+.image2 {
+  background-image: url('https://image.dogilike.com/shareimg/contentimg/2020/pungpond/9-20/Caring/1/john-price-wzRQfEw9CMc-unsplash.jpg');
+}
+
+
+
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:1000px;
+    background-color:rgb(0, 0, 0);
+    font-size:36px;
+    color:white
+}
+
+.box{
+    background-color: rgba(41, 41, 41, 0.418);
+    padding: 15px;
+    font-size: 20px;
+}
